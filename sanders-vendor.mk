@@ -1337,6 +1337,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/motorola/sanders/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_FE12MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_FE12MB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_QE13MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_QE13MB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_RC14MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RC14MB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_RC1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RC1BMB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_RE1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RE1BMB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_RX14MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RX14MB.fw \
+    vendor/motorola/sanders/proprietary/vendor/firmware/emmc_ffu_15_RX1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RX1BMB.fw \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
