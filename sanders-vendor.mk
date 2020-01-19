@@ -1334,8 +1334,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/sanders/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/motorola/sanders/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc
-    vendor/motorola/sanders/proprietary/vendor/firmware/focaltech-toptouch-ft5436-0a-0001-sanders.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-toptouch-ft5436-0a-0001-sanders.bin \
+    vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
@@ -1349,8 +1348,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtvtuner.so \
     vendor/motorola/sanders/proprietary/lib64/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvtuner.so \
     vendor/motorola/sanders/proprietary/lib64/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvhal.so
-    vendor/motorola/sanders/proprietary/lib/modules/isdbt.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/isdbt.ko \
-    vendor/motorola/sanders/proprietary/lib64/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvhal.so 
 
 # WFD
 PRODUCT_COPY_FILES += \
