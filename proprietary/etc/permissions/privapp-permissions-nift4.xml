@@ -1,1 +1,9 @@
-<!-- For some Qcom things -->
+<!-- For some Qcom things; by https://git.io/nift4 -->
+<permissions>
+    <privapp-permissions package="com.qualcomm.qcrilmsgtunnel">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.qualcomm.atfwd">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    </privapp-permissions>
+</permissions>
